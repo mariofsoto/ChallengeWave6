@@ -1,3 +1,5 @@
+package com.example.challengewave6
+
 import java.util.*
 
 // We use the discountCard val as nullable to validate if the vehicle has a discount

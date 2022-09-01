@@ -1,3 +1,5 @@
+package com.example.challengewave6
+
 data class Parking(val vehicles: MutableSet<Vehicle>) {
     private val maxVehicles: Int = 20
     private var balance: Pair<Int, Int> = Pair(0, 0)
@@ -51,7 +53,7 @@ data class Parking(val vehicles: MutableSet<Vehicle>) {
     }
 
     fun listVehicles() {
-        println("Parking occupation: ${vehicles.size}")
+        println("com.example.challengewave6.Parking occupation: ${vehicles.size}")
         // We converted the Vehicles Set to list to iterate it
         vehicles.toList().forEach { vehicle -> println("plate:${vehicle.plate}") }
     }
