@@ -7,11 +7,11 @@ fun main() {
     // Por definición un Set es utilizado para guardar objetos de un mismo tipo y es mejor para saber si un valor se encuentra o no en el conjunto dado.
     // Ya que en el presente Challenge tenemos que realizar consultas sobre el mismo es que se define un Set y no otro tipo de colección
 
-    // Ej 2: ¿Puede cambiar el tipo de vehículo en el tiempo? ¿Debe definirse como variable o como constante en com.example.challengewave6.Vehicle?
+    // Ej 2: ¿Puede cambiar el tipo de vehículo en el tiempo? ¿Debe definirse como variable o como constante en Vehicle?
     // No puede cambiar en el tiempo por lo tanto asignamos un val porque una placa va a corresponder siempre al mismo vehiculo
 
-    // Ej 3: ¿Dónde deben agregarse las propiedades, en com.example.challengewave6.ParkingSpace, com.example.challengewave6.Vehicle o en ambos?
-    // com.example.challengewave6.Vehicle
+    // Ej 3: ¿Dónde deben agregarse las propiedades, ParkingSpace, Vehicle o en ambos?
+    // en Vehicle
     // ¿Cómo indicamos que un tipo de datos puede adquirir esta característica en Kotlin?
     // Agregamos un signo de interrogación al final del tipo de variable
 
