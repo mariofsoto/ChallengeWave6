@@ -53,7 +53,7 @@ data class Parking(val vehicles: MutableSet<Vehicle>) {
     }
 
     fun listVehicles() {
-        println("com.example.challengewave6.Parking occupation: ${vehicles.size}")
+        println("Parking occupation: ${vehicles.size}")
         // We converted the Vehicles Set to list to iterate it
         vehicles.toList().forEach { vehicle -> println("plate:${vehicle.plate}") }
     }
